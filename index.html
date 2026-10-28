@@ -12,7 +12,7 @@
   header { text-align:center; padding:48px 0 32px; }
   .logo { display:inline-flex; align-items:center; justify-content:center; width:72px; height:72px; border-radius:20px; background:linear-gradient(135deg,var(--primary),var(--primary-dark)); color:#fff; font-size:36px; font-weight:800; margin-bottom:16px; }
   h1 { font-size:28px; font-weight:800; letter-spacing:1px; }
-  .sub { color:var(--muted); font-size:14px; margin-top:8px; }
+  .meta { color:var(--muted); font-size:13px; text-align:center; margin-top:8px; }
   h2 { font-size:19px; font-weight:700; margin:36px 0 12px; padding-left:12px; border-left:4px solid var(--primary); }
   p, li { font-size:15px; color:#404040; }
   ul, ol { padding-left:24px; margin:8px 0; }
@@ -20,7 +20,6 @@
   table { width:100%; border-collapse:collapse; margin:12px 0; font-size:14px; }
   th, td { border:1px solid var(--border); padding:8px 12px; text-align:left; }
   th { background:#F0F8F7; color:var(--primary-dark); font-weight:600; }
-  .meta { color:var(--muted); font-size:13px; text-align:center; margin-top:8px; }
   .card { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:8px 20px; margin:12px 0; }
   footer { text-align:center; color:var(--muted); font-size:13px; margin-top:64px; border-top:1px solid var(--border); padding-top:24px; }
 </style>
@@ -30,78 +29,70 @@
   <header>
     <div class="logo">莫</div>
     <h1>莫兰 隐私政策</h1>
-    <p class="meta">更新日期：2026年10月22日　生效日期：2026年10月22日</p>
+    <p class="meta">更新日期：2026年10月28日　生效日期：2026年10月28日</p>
   </header>
 
-  <p>欢迎使用「莫兰」（以下简称"本应用"或"莫兰"）。本应用是一款英语学习应用，提供单词学习、词书浏览、听力训练、刷题练习与学习记录等功能。我们深知个人信息对您的重要性，并会尽全力保护您的个人信息安全可靠。本政策将帮助您了解我们如何收集、使用、存储和保护您的信息，以及您所享有的相关权利。</p>
-  <p>请您在使用本应用前，仔细阅读并理解本隐私政策。您使用或继续使用本应用，即表示您同意本政策所述内容。</p>
+  <p>欢迎使用「莫兰」（以下简称“本应用”或“莫兰”）。本应用是一款英语学习应用，提供单词学习、词书浏览、听力训练、刷题练习、限时模考与学习记录等功能。</p>
+  <p>本政策适用于 AppGallery 公开商店版本。我们坚持本机优先与最小化处理原则，下方说明账号、学习数据、内容请求和第三方音频服务分别如何处理。</p>
 
-  <h2>一、我们收集哪些信息</h2>
-  <p>本应用秉持"最小化收集"原则，<strong>不收集任何个人身份信息</strong>（如姓名、身份证号、手机号、邮箱地址、通讯录、位置信息等）。</p>
+  <h2>一、账号模式</h2>
   <div class="card">
-    <p><strong>1. 学习数据（本地存储）</strong></p>
+    <p><strong>公开商店版本使用本机账号。</strong></p>
     <ul>
-      <li>您的学习进度、打卡记录、统计数据（如记忆持久度、遗忘曲线、学习情况等）<strong>仅保存在您的设备本地</strong>，用于向您展示学习情况。</li>
-      <li>本应用<strong>不会</strong>将这些数据上传至任何服务器，也不进行云同步。</li>
-    </ul>
-  </div>
-  <div class="card">
-    <p><strong>2. 词库数据（下载获取）</strong></p>
-    <ul>
-      <li>本应用会从公开渠道（如公开代码仓库或您自建的服务器）下载英语词库数据，用于本地单词学习。</li>
-      <li>下载过程仅涉及词库文件本身，不涉及您的任何个人信息。</li>
-    </ul>
-  </div>
-  <div class="card">
-    <p><strong>3. AI 批改服务（第三方接口）</strong></p>
-    <ul>
-      <li>当您使用"AI 批改"功能时，您主动提交的<strong>练习答案文本</strong>将被发送至第三方 AI 服务提供商（深度求索 DeepSeek）的服务器，用于生成批改与讲解内容。</li>
-      <li>该传输仅包含您主动提交的答案文本，不包含您的设备信息、应用数据或其他个人信息。</li>
-      <li>第三方服务提供商的个人信息处理规则，请参见其官网公布的隐私政策。</li>
+      <li>注册和登录时输入的手机号、加盐密码摘要、注册时间和登录状态只保存在当前设备。</li>
+      <li>本机账号不会上传到莫兰账号服务器，也不会跨设备同步。</li>
+      <li>莫兰不保存明文密码，开发者无法查看或远程重置本机账号密码。</li>
+      <li>Windows 私有分发版如启用云端账号，将另行提供对应的账号与数据说明。</li>
     </ul>
   </div>
 
-  <h2>二、我们如何使用信息</h2>
-  <p>我们仅在以下情形使用上述信息：</p>
-  <ol>
-    <li>在您的设备本地展示学习统计与进度；</li>
-    <li>下载并展示您选择的词库内容；</li>
-    <li>将您主动提交的答案文本发送至第三方 AI 服务用于批改。</li>
-  </ol>
-  <p>我们<strong>不会</strong>将您的信息用于任何形式的广告推送、画像分析或出售给任何第三方。</p>
-
-  <h2>三、权限使用说明</h2>
-  <p>本应用在运行过程中可能申请以下权限：</p>
-  <table>
-    <tr><th>权限</th><th>用途</th></tr>
-    <tr><td>网络访问</td><td>用于下载词库数据以及调用 AI 批改服务</td></tr>
-  </table>
-  <p>本应用<strong>不会</strong>申请通讯录、定位、相册、麦克风、摄像头等敏感权限。</p>
-
-  <h2>四、信息存储与安全</h2>
+  <h2>二、内容更新请求</h2>
+  <p>App 在启动和回到前台时，可能访问 <strong>https://moran.team</strong> 检查已发布的词书、听力与真题版本，并把新版本缓存到本机。</p>
   <ul>
-    <li>学习数据存储于您的设备本地，卸载应用即全部清除。</li>
-    <li>应用内保存的第三方服务密钥（如 AI 服务密钥）经过加密后存储于本地，不会明文外泄。</li>
-    <li>我们采取合理的技术与组织措施保护您的信息安全，但请您理解，任何网络传输方式都无法保证绝对安全。</li>
+    <li>请求只包含应用版本和当前内容版本号，不包含手机号、账号密码或学习进度。</li>
+    <li>服务器为完成请求可能处理访问所必需的 IP 地址、请求时间和基础技术日志。</li>
+    <li>网络失败时，App 继续使用上一个缓存或随应用内置的内容。</li>
+    <li>该内容服务不提供账号登录、云同步或学习数据存储。</li>
   </ul>
 
-  <h2>五、未成年人保护</h2>
-  <p>本应用面向一般学习人群。我们不会故意收集未成年人的个人信息。如您是未成年人，请在监护人指导下使用本应用。</p>
+  <h2>三、学习数据与设备信息</h2>
+  <ul>
+    <li><strong>学习数据：</strong>所学单词、收藏、错题、复习记录、听力进度、模考答案与成绩、学习时长、打卡日期和偏好设置，保存在当前设备。</li>
+    <li><strong>技术数据：</strong>应用版本、操作系统类型和本地诊断信息用于保障应用运行，不上传到账号服务器。</li>
+    <li><strong>设备标识：</strong>公开商店版本不启用私有设备授权，不读取设备序列号。</li>
+  </ul>
 
-  <h2>六、您的权利</h2>
-  <ol>
-    <li><strong>删除数据</strong>：您可以在任意时间清除应用内学习数据，或直接卸载本应用，本地数据将随之删除。</li>
-    <li><strong>关闭 AI 功能</strong>：您可以不使用 AI 批改功能，此时不会发生任何答案文本的网络传输。</li>
-    <li><strong>拒绝权限</strong>：您可以拒绝授予网络权限，但可能影响词库下载与 AI 批改功能的使用。</li>
-  </ol>
+  <h2>四、第三方服务</h2>
+  <ul>
+    <li><strong>单词发音：</strong>联网时可能请求有道词典的公开发音服务。</li>
+    <li><strong>听力音频：</strong>部分听力内容由 cettong.cn 提供。</li>
+    <li>访问上述服务时，对方可能收到完成请求所必需的 IP 地址、设备或浏览器技术信息，并按各自隐私政策处理数据。</li>
+    <li>公开商店版本不包含 AI 批改、外部大模型调用或相关密钥。</li>
+  </ul>
 
-  <h2>七、政策更新</h2>
-  <p>我们可能适时修订本隐私政策。修订后的政策将在本应用内更新并重新公布。若政策发生重大变更，我们将在应用内显著位置提示您。继续使用本应用即表示您接受修订后的政策。</p>
+  <h2>五、权限使用</h2>
+  <table>
+    <tr><th>权限</th><th>用途</th></tr>
+    <tr><td>网络访问</td><td>检查并下载已发布的词书、听力与真题内容；播放第三方发音和听力音频</td></tr>
+  </table>
+  <p>本应用不申请通讯录、精确位置、相机、麦克风、相册或广告标识权限。</p>
 
-  <h2>八、联系我们</h2>
-  <p>如您对本隐私政策有任何疑问、意见或建议，可通过以下方式联系我们：</p>
-  <p><strong>电子邮箱</strong>：2218145697@qq.com</p>
-  <p>我们将尽快对您的问题进行核实并予以答复。</p>
+  <h2>六、保存期限与删除</h2>
+  <ul>
+    <li>账号和学习数据保存在当前设备，直至您在设置中删除账号与数据、清除应用数据或卸载应用。</li>
+    <li>删除入口位于“设置 - 隐私与账号 - 删除账号与数据”，需要输入当前密码确认。</li>
+    <li>删除后无法恢复。公开商店版本不使用云端账号，因此不存在需要额外删除的云端账号副本。</li>
+  </ul>
+
+  <h2>七、未成年人保护</h2>
+  <p>本应用面向具备相应英语学习需求的用户。未成年人应在监护人指导下使用本应用。若发现未经监护人同意处理了未成年人个人信息，请通过下方邮箱联系核实。</p>
+
+  <h2>八、政策更新</h2>
+  <p>我们可能因功能、服务或法律要求调整本政策。修订后的政策会在本页面公布；若发生重大变化，我们会在应用内以显著方式提示。继续使用本应用即表示接受更新后的政策。</p>
+
+  <h2>九、联系我们</h2>
+  <p>如对本政策、账号或数据有疑问，请联系：</p>
+  <p><strong>电子邮箱：</strong>2218145697@qq.com</p>
 
   <footer>© 2026 莫兰 Moran · 隐私政策</footer>
 </div>
